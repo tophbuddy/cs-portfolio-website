@@ -1,0 +1,56 @@
+/* AboutPage.css */
+
+:root {
+    --bs-primary: #007bff;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2em;
+}
+
+/* Main content */
+.container {
+    margin-top: 2em;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image Style */
+.profile-image {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--bs-primary);
+    color: white;
+    padding: 2em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
